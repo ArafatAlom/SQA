@@ -45,7 +45,6 @@
             <!--Account Information End-->
 
 
-
             <!--Payment Details Start-->
             <div class="input_group">
                 <div class="input_box">
