@@ -62,7 +62,7 @@
 
     <section class="course" id="course">
 
-        <h1 class="heading">All Courses Provided By Our Teacher</h1>
+        <h1 class="heading">All Courses Provided By Our Teachers</h1>
 
         <div class="box-container">
 
@@ -78,7 +78,7 @@
                         <i class="fas fa-star-half"></i>
                     </div>
                     <a href="#" class="title">Physics</a>
-                    <p><b>Course Instractor:</b> <a href="#" class="title">Anayet Ullah</a><br> <a href="#" class="title">Md.Shakil Hossain</a>,<a href="#" class="title">Akibur Rahman</a></p>
+                    <p><b>Course Instractor:</b> <a href="#" class="title">Mohammad Mizanur Rahman</a><br> <a href="#" class="title">Md.Shakil Hossain</a>,<a href="#" class="title">Akibur Rahman</a></p>
                     <p></p>
                     <div class="info">
                         <h3> <i class="far fa-clock"></i>Class-12 </h3>
@@ -125,7 +125,7 @@
                         <i class="fas fa-star-half"></i>
                     </div>
                     <a href="#" class="title">Higher Mathematics</a>
-                    <p><b>Course Instractor:</b> <a href="#" class="title">Ikramul Islam Emon</a><br> <a href="#" class="title">Rahat Ashraf</a></p>
+                    <p><b>Course Instractor:</b> <a href="#" class="title">Ikramul Islam Emon</a><br> <a href="#" class="title">Hablul Huda</a></p>
                     <p></p>
                     <div class="info">
                         <h3> <i class="far fa-clock"></i>Class-11 </h3>
@@ -148,7 +148,7 @@
                         <i class="fas fa-star-half"></i>
                     </div>
                     <a href="#" class="title">Biology</a>
-                    <p><b>Course Instractor:</b> <a href="#" class="title">Akram Khan</a><br> <a href="#" class="title">Nishat Tasnim</a></p>
+                    <p><b>Course Instractor:</b> <a href="#" class="title">Akram Khan</a><br> <a href="#" class="title">Sayeda Parvin</a></p>
                     <p></p>
                     <div class="info">
                         <h3> <i class="far fa-clock"></i>Class-12 </h3>
@@ -171,7 +171,7 @@
                         <i class="fas fa-star-half"></i>
                     </div>
                     <a href="#" class="title">English</a>
-                    <p><b>Course Instractor:</b> <a href="#" class="title">Jubair Al Faisal </a><br> <a href="#" class="title">Junaid Alam</a></p>
+                    <p><b>Course Instractor:</b> <a href="#" class="title">Arafat Alom </a><br> <a href="#" class="title">Mukhleshur Rahman</a></p>
                     <p></p>
                     <div class="info">
                         <h3> <i class="far fa-clock"></i>Class-10 </h3>
@@ -194,7 +194,7 @@
                         <i class="fas fa-star-half"></i>
                     </div>
                     <a href="#" class="title">ICT</a>
-                    <p><b>Course Instractor:</b> <a href="#" class="title">Ikramul Islam Emon</a><br> <a href="#" class="title">Abdullah Al Shaikh</a></p>
+                    <p><b>Course Instractor:</b> <a href="#" class="title">Mohammad Mizanur Rahman</a><br> <a href="#" class="title">Ruhul Amin</a></p>
                     <p></p>
                     <div class="info">
                         <h3> <i class="far fa-clock"></i>Class-11 </h3>
@@ -399,7 +399,7 @@
 
 
 
-            <h1 class="credit">created by <a href="#">&copy;Emon Ikram</a> all rights reserved. </h1>
+            <h1 class="credit">created by <a href="#">&copy;Mohammad Mizanur Rahman</a> all rights reserved. </h1>
 
         </div>
          <!-- footer section ends-->
