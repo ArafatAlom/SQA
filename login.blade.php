@@ -23,7 +23,7 @@
         <div class="pass">Forgot Password?</div>
         <input type="submit" value="Login">
         <div class="signup_link">
-          Don't have an account? <a href="{{url('/register')}}">Register Here</a>
+          Don't have an account? <a href="{{url('/register')}}">Sign up Here</a>
         </div>
       </form>
     </div>
