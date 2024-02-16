@@ -1,3 +1,8 @@
+/**
+ * @file
+ * @brief HTML file for displaying course information.
+ */
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +20,9 @@
     <meta name="theme-color" content="#ffffff">
 
 
-   
+    /** 
+         * @brief Style for the search input and button.
+         */
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
