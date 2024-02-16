@@ -102,7 +102,7 @@
                         <i class="fas fa-star-half"></i>
                     </div>
                     <a href="#" class="title">Chemistry</a>
-                    <p><b>Course Instractor:</b> <a href="#" class="title">Saifi Alam Nirjhor</a><br> <a href="#" class="title">Mehedi Hasan</a></p>
+                    <p><b>Course Instractor:</b> <a href="#" class="title">Saif Hasan</a><br> <a href="#" class="title">Mehedi Hasan</a></p>
                     <p></p>
                     <div class="info">
                         <h3> <i class="far fa-clock"></i>Class-12 </h3>
@@ -333,7 +333,7 @@
                         <i class="fas fa-star-half"></i>
                     </div>
                     <a href="#" class="title">General Mathematics</a>
-                    <p><b>Course Instractor:</b> <a href="#" class="title">Ikramul Islam Emon</a><br> <a href="#" class="title">Anayet Ullah</a></p>
+                    <p><b>Course Instractor:</b> <a href="#" class="title">Mohammad Mizanur Rahman</a><br> <a href="#" class="title">Anayet Ullah</a></p>
                     <p></p>
                     <div class="info">
                         <h3> <i class="far fa-clock"></i>Class-10 </h3>
@@ -355,7 +355,7 @@
                         <i class="fas fa-star-half"></i>
                     </div>
                     <a href="#" class="title">General Science</a>
-                    <p><b>Course Instractor:</b> <a href="#" class="title">Akram Khan</a><br> <a href="#" class="title">Mumtahina Mim</a></p>
+                    <p><b>Course Instractor:</b> <a href="#" class="title">Sayeda Parvin</a><br> <a href="#" class="title">Arafat Alom</a></p>
                     <p></p>
                     <div class="info">
                         <h3> <i class="far fa-clock"></i>Class-9 </h3>
