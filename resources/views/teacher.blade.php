@@ -71,7 +71,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half"></i>
                     </div>
-                    <a href="https://ikramul-cseju.github.io/" class="title">Ikramul Islam Emon</a>
+                    <a href="https://nibir131.github.io/" class="title">Mukhleshur Rahman</a>
                     <p>Student of Dept of Computer Science & Engineering, Jahangirnagar University. Experienced in teaching Mathematics,ICT & also experience in admission </p>
                     <p></p>
 
@@ -79,7 +79,7 @@
             </div>
 
             <div class="box">
-                <img src="image/enayet.jpg" alt="">
+                <img src="image/mizan.jpg" alt="">
 
                 <div class="content">
                     <div class="stars">
@@ -90,14 +90,14 @@
                         <i class="fas fa-star-half"></i>
                     </div>
 
-                    <a href="#" class="title">Anayet Ullah</a>
+                    <a href="#" class="title">Mizanur Rahman</a>
                     <p> Student of Dept of Computer Science & Engineering, Jahangirnagar University.<br> Programming Problem solver <br>Experienced in teaching Physics,ICT<br></p>
                     <p></p>
 
                 </div>
             </div>
             <div class="box">
-                <img src="image/saifi.jpg" alt="">
+                <img src="image/ruhul.jpg" alt="">
 
                 <div class="content">
                     <div class="stars">
@@ -108,13 +108,13 @@
                         <i class="fas fa-star-half"></i>
                     </div>
 
-                    <a href="#" class="title">Saifi Alam Nirjhor</a>
+                    <a href="#" class="title">Ruhul Amin</a>
                     <p> Student of Dept of Computer Science & Engineering, Jahangirnagar University.<br> Programming Problem solver <br>Experienced in teaching Physics,ICT<br></p>  <p></p>
 
                 </div>
             </div>
             <div class="box">
-                <img src="image/sohan.jpg" alt="">
+                <img src="image/ruhul.jpg" alt="">
 
                 <div class="content">
                     <div class="stars">
@@ -125,32 +125,14 @@
                         <i class="fas fa-star-half"></i>
                     </div>
 
-                    <a href="#" class="title">Sohanur Rahman</a>
-                    <p> Student of Dept of Computer Science & Engineering, Jahangirnagar University.<br> Programming Problem solver <br>Experienced in teaching Physics,ICT<br></p>  <p></p>
-
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="image/tibro.jpg" alt="">
-
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half"></i>
-                    </div>
-
-                    <a href="#" class="title">Md.Shakil Hossain</a>
+                    <a href="#" class="title">Syeda Parvin</a>
                     <p> Student of Dept of Computer Science & Engineering, Jahangirnagar University.<br> Programming Problem solver <br>Experienced in teaching Physics,ICT<br></p>  <p></p>
 
                 </div>
             </div>
 
             <div class="box">
-                <img src="image/shaikh.jpg" alt="">
+                <img src="image/sayeda.jpg" alt="">
 
                 <div class="content">
                     <div class="stars">
@@ -161,7 +143,25 @@
                         <i class="fas fa-star-half"></i>
                     </div>
 
-                    <a href="#" class="title">Abdullah Al Shaikh</a>
+                    <a href="#" class="title">Sayeda Parvin</a>
+                    <p> Student of Dept of Computer Science & Engineering, Jahangirnagar University.<br> Programming Problem solver <br>Experienced in teaching Physics,ICT<br></p>  <p></p>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/arafat.jpg" alt="">
+
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+
+                    <a href="#" class="title">Arafat Alom</a>
                     <p> Student of Dept of Computer Science & Engineering, Jahangirnagar University.<br> Programming Problem solver <br>Experienced in teaching Physics,ICT<br></p>  <p></p>
 
                 </div>
