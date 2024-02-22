@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\TeacherController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RequestController;
 
@@ -40,3 +40,5 @@ Route::get('request', function () {
     return view('request');
 });
 Route::post('request', [ RequestController::class, 'addData' ] );
+
+Route::get('/teachers', [TeacherController::class, 'index']);
