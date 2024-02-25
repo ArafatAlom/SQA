@@ -13,20 +13,19 @@ class RequestController extends Controller
         $data = new RequestMake;
 
         // Assign values from the request to the model properties
-        $data->gmail = $req->gmail;
-        $data->private_or_batch = $req->private_or_batch;
-        $data->subject = $req->subject;
-        $data->no_of_student = $req->no_of_student;
-        $data->address = $req->address;
-        $data->phone_no = $req->phone_no;
-        $data->teacher_id = $req->teacher_id;
-        $data->opinion = $req->opinion;
+        $data->gmail = $req->gmail; 
+        $data->private_or_batch = $req->private_or_batch; // Assigning private_or_batch value
+        $data->subject = $req->subject; 
+        $data->no_of_student = $req->no_of_student; 
+        $data->address = $req->address; 
+        $data->phone_no = $req->phone_no; 
+        $data->teacher_id = $req->teacher_id; 
+        $data->opinion = $req->opinion; 
 
         // Save the data to the database
-        $data->save();
+        $data->save(); 
 
         // Return view for index page after data is saved
-        return view("index");
+        return view("index"); 
     }
 }
-
