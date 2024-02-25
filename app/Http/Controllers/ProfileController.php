@@ -5,15 +5,29 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Profile;
 
+/**
+ * ProfileController Class
+ *
+ * @package App\Http\Controllers
+ */
 class ProfileController extends Controller
 {
-    // Function to display user profile
+    /**
+     * Display the user's profile.
+     *
+     * @return \Illuminate\View\View
+     */
     public function showProfile()
     {
-        return view('profile.index'); // Assuming you have a 'profile' folder and 'index.blade.php' for displaying profile
+        return view('profile.index');
     }
 
-    // Function to update personal details
+    /**
+     * Update user's personal details.
+     *
+     * @param  Request  $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function updatePersonalDetails(Request $request)
     {
         // Validate the incoming request data
@@ -44,7 +58,12 @@ class ProfileController extends Controller
         return redirect()->route('profile.index')->with('success', 'Personal details updated successfully.');
     }
 
-    // Function to change password
+    /**
+     * Change user's password.
+     *
+     * @param  Request  $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function changePassword(Request $request)
     {
         // Validate the incoming request data
@@ -72,4 +91,9 @@ class ProfileController extends Controller
         return redirect()->route('profile.index')->with('success', 'Password changed successfully.');
     }
 }
+
+
+
+
+
 
