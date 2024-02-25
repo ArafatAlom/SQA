@@ -30,6 +30,13 @@ class UserTest extends TestCase
         $response->assertStatus(200);
     }
 
+    //for profile
+    public function test_profile()
+    {
+        $response = $this->get('/profile');
+        $response->assertStatus(200);
+    }
+
     
     //for privacy
 
