@@ -37,7 +37,9 @@ Route::get('payment', function () {
 });
 Route::post('payment',[PaymentController::class,'payData']);
 
-
+Route::get('profile', function () {
+    return view('profile');
+});
 
 Route::get('course', function () {
     return view('course');
