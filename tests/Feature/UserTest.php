@@ -17,7 +17,7 @@ class UserTest extends TestCase
  public function test_db()
  {
     $this->assertDatabaseHas('users',[
-        'email'=>'emonju330@gmail.com'
+        'email'=>'jucse28.358@gmail.com'
 
     ]);
  }
@@ -26,7 +26,7 @@ class UserTest extends TestCase
  public function test_db2()
  {
     $this->assertDatabaseHas('payments',[
-        'name'=>'Robin'
+        'name'=>'Sayeda'
 
     ]);
  }
@@ -35,22 +35,22 @@ class UserTest extends TestCase
   public function test_db3()
   {
      $this->assertDatabaseHas('users',[
-         'user_id'=>'emon330'
+         'user_id'=>'sayeda358'
  
      ]);
   }
 
-//for payment
+//for Payment
  public function test_payData()
  {
      $response = $this->post('/payment', [
 
-         'name' => 'Al Imran',
-         'email' => 'imran@gmail.com',
+         'name' => 'Sayeda Parvin',
+         'email' => 'jucse28.358@gmail.com',
          'address' => 'savar,dhaka',
-         'teacher_id' => 'imrann3',
+         'teacher_id' => 'Hassan123',
          'gateway' => 'nagad',
-         'pay_no' => '01887656432',
+         'pay_no' => '01318522709',
          'trnx' => 'xhjfyw2',
          'amount' => '1500'
 
@@ -60,5 +60,42 @@ class UserTest extends TestCase
      $response->assertRedirect('index');
  }
 
+    //for Profile
+    public function test_showProfile()
+    {
+        $response = $this->get('/profile');
+        $response->assertStatus(200);
+        $response->assertRedirect('index');
+        
+    }
+
+    public function test_updateProfile()
+    {
+
+        $response = $this->post('/profile', [
+            'name' => 'Sayeda Monika',
+            'user_id' => 'monika123',
+            'email' => 'sayeda.stu2018@juniv.edu',
+            'gender' => 'Female',
+            'contact_no' => '01318522709',
+            'address' => 'JU campus, Savar',
+        ]);
+
+        $response->assertRedirect('index');
+
+    }
+
+    public function test_changePassword()
+    {
+
+        $response = $this->post('/profile', [
+            'old_password' => 'abc12345',
+            'new_password' => 'abc789@#',
+            'confirm_password' => 'abc789@#',
+        ]);
+
+        $response->assertRedirect('index');
+        $this->assertTrue(\Hash::check('new_password', $user->fresh()->password));
+    }
 
 }
