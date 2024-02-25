@@ -17,7 +17,7 @@ class UserTest extends TestCase
  public function test_db()
  {
     $this->assertDatabaseHas('users',[
-        'email'=>'emonju330@gmail.com'
+        'email'=>'jucse28.358@gmail.com'
 
     ]);
  }
@@ -26,7 +26,7 @@ class UserTest extends TestCase
  public function test_db2()
  {
     $this->assertDatabaseHas('payments',[
-        'name'=>'Robin'
+        'name'=>'Sayeda'
 
     ]);
  }
@@ -35,7 +35,7 @@ class UserTest extends TestCase
   public function test_db3()
   {
      $this->assertDatabaseHas('users',[
-         'user_id'=>'emon330'
+         'user_id'=>'sayeda358'
  
      ]);
   }
@@ -45,12 +45,12 @@ class UserTest extends TestCase
  {
      $response = $this->post('/payment', [
 
-         'name' => 'Al Imran',
-         'email' => 'imran@gmail.com',
+         'name' => 'Sayeda Parvin',
+         'email' => 'jucse28.358@gmail.com',
          'address' => 'savar,dhaka',
-         'teacher_id' => 'imrann3',
+         'teacher_id' => 'Hassan123',
          'gateway' => 'nagad',
-         'pay_no' => '01887656432',
+         'pay_no' => '01318522709',
          'trnx' => 'xhjfyw2',
          'amount' => '1500'
 
