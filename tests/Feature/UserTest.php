@@ -40,8 +40,18 @@ class UserTest extends TestCase
      ]);
   }
 
+
 //for Payment
- public function test_payData()
+/** @test */
+public function test_paymentFormView()
+    {
+        $response = $this->get('/payment');
+        $response->assertStatus(200);
+        $response->assertViewIs('payment.index');
+    } 
+
+/** @test */
+public function test_payData()
  {
      $response = $this->post('/payment', [
 
@@ -53,26 +63,26 @@ class UserTest extends TestCase
          'pay_no' => '01318522709',
          'trnx' => 'xhjfyw2',
          'amount' => '1500'
-
-
-
      ]);
      $response->assertRedirect('index');
  }
 
     //for Profile
+    /** @test */
     public function test_showProfile()
     {
         $response = $this->get('/profile');
         $response->assertStatus(200);
-        $response->assertRedirect('index');
+        $response->assertViewIs('profile.index');
         
     }
 
+    /** @test */
     public function test_updateProfile()
     {
 
-        $response = $this->post('/profile', [
+        $user = factory(User::class)->create();
+        $response = $this->actingAs($user)->post('/profile', [
             'name' => 'Sayeda Monika',
             'user_id' => 'monika123',
             'email' => 'sayeda.stu2018@juniv.edu',
@@ -88,7 +98,8 @@ class UserTest extends TestCase
     public function test_changePassword()
     {
 
-        $response = $this->post('/profile', [
+        $user = factory(User::class)->create(['password' => bcrypt('oldpassword')]);
+        $response = $this->actingAs($user)->post('/profile', [
             'old_password' => 'abc12345',
             'new_password' => 'abc789@#',
             'confirm_password' => 'abc789@#',
