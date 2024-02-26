@@ -39,6 +39,9 @@ Route::get('privacy', function () {
 Route::get('register', function () {
     return view('register');
 });
+Route::get('message', function () {
+    return view('message');
+});
 
 Route::get('request', function () {
     return view('request');
