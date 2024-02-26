@@ -14,7 +14,7 @@ class RequestController extends Controller
 
         // Assign values from the request to the model properties
         $data->gmail = $req->gmail; 
-        $data->private_or_batch = $req->private_or_batch; // Assigning private_or_batch value
+        $data->private_or_batch = $req->private_or_batch; 
         $data->subject = $req->subject; 
         $data->no_of_student = $req->no_of_student; 
         $data->address = $req->address; 
