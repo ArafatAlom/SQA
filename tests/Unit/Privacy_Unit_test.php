@@ -10,11 +10,7 @@ use Tests\TestCase;
 
 class PrivacyPolicyTest extends TestCase
 {
-    /**
-     * A basic feature test example.
-     *
-     * @return void
-     */
+   
     public function testPrivacyPolicyPageLoads()
     {
         $response = $this->get('/privacy-policy');
