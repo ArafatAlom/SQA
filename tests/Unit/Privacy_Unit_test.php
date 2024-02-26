@@ -7,6 +7,7 @@ use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Tests\TestCase;
 
+
 class PrivacyPolicyTest extends TestCase
 {
     /**
