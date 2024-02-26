@@ -11,8 +11,7 @@
 
 
     <style>
-
-        
+  
         * {
             font-family: 'Open Sans', sans-serif;
             color:white;
